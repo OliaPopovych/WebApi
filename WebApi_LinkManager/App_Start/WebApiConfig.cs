@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 
 namespace WebApi_LinkManager
 {
@@ -13,6 +10,11 @@ namespace WebApi_LinkManager
 
             // Маршруты веб-API
             config.MapHttpAttributeRoutes();
+
+            config.Routes.MapHttpRoute(
+                name: "WithActionApi",
+                routeTemplate: "api/{controller}/{action}/{customerID}"
+            );
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

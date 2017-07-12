@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_LinkManager", "WebApi_LinkManager\WebApi_LinkManager.csproj", "{EBA8B9D6-0ACA-4517-991F-827AEAD03A3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_LinkManager.DAL", "DAL\WebApi_LinkManager.DAL.csproj", "{81847C1F-76EA-425D-811D-0C05C1CDA74F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_LinkManager.Services", "WebApi_LinkManager.Services\WebApi_LinkManager.Services.csproj", "{493E5AB7-D948-4CDA-9B02-8D1B0496A11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi_LinkManager.Entities", "WebApi_LinkManager.Entities\WebApi_LinkManager.Entities.csproj", "{14167153-2FA6-4659-96C6-9D32772C7F73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{EBA8B9D6-0ACA-4517-991F-827AEAD03A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA8B9D6-0ACA-4517-991F-827AEAD03A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA8B9D6-0ACA-4517-991F-827AEAD03A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81847C1F-76EA-425D-811D-0C05C1CDA74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81847C1F-76EA-425D-811D-0C05C1CDA74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81847C1F-76EA-425D-811D-0C05C1CDA74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81847C1F-76EA-425D-811D-0C05C1CDA74F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{493E5AB7-D948-4CDA-9B02-8D1B0496A11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{493E5AB7-D948-4CDA-9B02-8D1B0496A11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{493E5AB7-D948-4CDA-9B02-8D1B0496A11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{493E5AB7-D948-4CDA-9B02-8D1B0496A11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14167153-2FA6-4659-96C6-9D32772C7F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14167153-2FA6-4659-96C6-9D32772C7F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14167153-2FA6-4659-96C6-9D32772C7F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14167153-2FA6-4659-96C6-9D32772C7F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
